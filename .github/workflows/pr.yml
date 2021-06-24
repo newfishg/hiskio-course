@@ -21,11 +21,11 @@ jobs:
         make shellcheck
         popd
 
-    - name: Run shell check
-      run: |
-        pushd cicd/application
-        make docker-lint
-        popd
+    # - name: Run shell check
+    #   run: |
+    #     pushd cicd/application
+    #     make docker-lint
+    #     popd
 
     - name: Run shell check
       run: |
